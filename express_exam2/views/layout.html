@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset='urf-8'>
+		<link rel='stylsheet' type='text/css' href='/css/style.css'>
+		<script src = '/js/common.js'></script>
+	</head>
+	
+	<body>
+		<header>
+		{% block header %}
+		{% include "outline/header/main.html" %}
+		{% endblock %}
+		</header>
+		<nav>
+		{% block nav %}
+		{% include "outline/menu/main.html" %}
+		{% endblock %}
+		</nav>
+		<main>
+		{% block content %}
+		
+		{% endblock %}
+		</main>
+		<footer>
+		{% block footer %}
+		{% include 'outline/footer/main.html'%}
+		{% endblock %}
+		</footer>
+	</body>
+</html>
