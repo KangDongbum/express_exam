@@ -1,25 +1,28 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 	<head>
-		<meta charset='utf-8'>
-		<link rel="stylesheet" type="text/css" href="/css/style.css">
+		<meta charset='urf-8'>
+		<link rel='stylesheet' type='text/css' href='/css/style.css'>
 		{% if addCss.length > 0 %}
 		{% for css in addCss %}
-		<link rel="stylesheet" type="text/css" href="/css/{{ css }}.css">
+		<link rel='stylesheet' type='text/css' href='/css/{{css}}.css'>
 		{% endfor %}
 		{% endif %}
-		{% block css %}
+		
+		{% block style %}
 		{% endblock %}
-		<script src="/js/common.js"></script>
+		<script src='/js/common.js'></script>
 		{% if addScript.length > 0 %}
 		{% for js in addScript %}
-		<script src="/js/{{ js }}.js"></script>
+		<script src='/js/{{ js }}.js'></script>
 		{% endfor %}
 		{% endif %}
+		
 		{% block script %}
 		{% endblock %}
 		<title>{{ pageTitle }}</title>
 	</head>
+	
 	<body>
 		{% block header %}
 		<header>
@@ -34,10 +37,10 @@
 		{% endblock %}
 		
 		<main>
-		{% block content %}
+		{% block contents %}
 		{% endblock %}
 		</main>
-
+		
 		{% block footer %}
 		<footer>
 		{% include 'outline/footer/main.html' %}
