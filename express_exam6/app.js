@@ -7,6 +7,7 @@ const logger = require('./lib/logger');
 const multer = require('multer');
 const cookieParser = require('cookie-parser');
 const session = require('express-session');
+const bootStrap = require('./boot');
 
 /** multer 설정 후 미들웨어 **/
 const upload = multer({
@@ -63,9 +64,11 @@ app.use(session({
 	secret : process.env.COOKIE_SECRET,
 	name : "sessid",
 }));
+
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.json());
 app.use(express.urlencoded({ extended : false }));
+app.use(bootStrap); //사이트 초기화 미들웨어
 
 /** 라우터 등록 */
 //app.use(indexRouter); 

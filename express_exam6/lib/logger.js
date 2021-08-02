@@ -25,7 +25,7 @@ module.exports = async function(message,mode){
 		let month = date.getMonth(); +1 // 0~11
 		month =(month < 10)?`0${month}`:month;
 		let day = date.getDate();
-		day =(day < 10)?`0{$day}`:day;
+		day =(day < 10)?`0${day}`:day;
 	
 		const filename = logDir + "/" +`${year}${month}${day}.log`;
 		// date.getDay() -> 요일 0~6(일~토)
