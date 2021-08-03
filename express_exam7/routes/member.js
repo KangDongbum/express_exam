@@ -28,13 +28,17 @@ router.route("/login")
 		.get((req,res)=>{
 			return res.render("member/login");
 		})
-		.post(loginValidator, (req,res)=>{
-			member.login(req.body.memId, req.body.memPw, req);
-			return send("");
+		.post(loginValidator, async (req,res)=>{
+			const result = await member.login(req.body.memId, req.body.memPw, req);
+			if(result){ //로그인 성공시 -> 메인페이지로 이동
+				return res.redirect("/");
+			}
+			return alert("로그인에 실패하였습니다.",res.true);
 		});
 // 로그아웃
 router.route("/logout", (req,res) =>{
-	
+	res.session.destroy(); //세션 전체 비우기 -> 로그아웃
+	return res.redirect('/'); // 로그아웃 되면 메인페이지로 이동
 });
 
 module.exports = router;

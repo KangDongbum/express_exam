@@ -40,6 +40,38 @@ const member = {
 				(공통 미들웨어는 세션 미들웨어가 등록된 이후에 추가 해야 정상적으로 세션에서
 				데이터를 확인할 수 있다)
 		*/
+		try{
+		const info = await this.get(memId)
+		if(!info){ //회우너정보가 없는경우
+			throw new Error('회원이 존재하지 않습니다.');
+		}
+		
+			const match = await bcrypt.compare(memPw, info.memPw);
+			if(match){ //비밀번호 일치
+				req.session.memId = memId;
+				
+				return true;
+			}else{
+				throw new Error('비밀번호가 불일치 합니다.');
+			}
+		} catch(err){
+			return false; //로그인 실패
+		}
+	},
+	/**
+	* 회원정보 조회
+	*
+	*/
+	get : async function(memId){
+		try{
+			
+			const filePath = path.join(__dirname, '../data/member/' + memId +'.json');
+			let data = await fs.readFile(filePath); //buffer -> 문자열(toString()) -> 객체(JSON.parse)
+			data = JSON.parse(data.toString());
+			return data;
+		} catch(err){
+			return false;
+		}
 	}
 };
 
