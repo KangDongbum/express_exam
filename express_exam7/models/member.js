@@ -42,7 +42,7 @@ const member = {
 		*/
 		try{
 		const info = await this.get(memId)
-		if(!info){ //회우너정보가 없는경우
+		if(!info){ //회원정보가 없는경우
 			throw new Error('회원이 존재하지 않습니다.');
 		}
 		
