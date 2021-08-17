@@ -2,6 +2,7 @@ const express = require('express');
 const nunjucks = require('nunjucks');
 const multer = require('multer');
 const path = require('path');
+const { sequelize } = require('./models');
 
 const app = express();
 
@@ -10,6 +11,15 @@ nunjucks.configure(path.join(__dirname, "views"), {
 	express : app,
 	watch : true,
 });
+
+sequelize.sync({ force : false })
+	.then(()=>{
+		console.log("데이터베이스 연결 성공");
+	})
+	.catch((err)=>{
+		// 만약 로거있으면 로거에 기록
+		console.error(err);	
+	});
 
 const upload = multer({
 	storage : multer.diskStorage({

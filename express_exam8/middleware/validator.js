@@ -26,6 +26,8 @@ module.exports.joinValidator = async (req,res,next)=>{
 			memPw : "비밀번호를 입력하세요.",
 			memPwRe : "비밀번호를 확인해주세요.",
 			memNm : "이름을 입력해 주세요.",
+			memFNum : "주민번호 앞자리를 입력해주시요.",
+			memBNum : "주민번호 뒷자리를 입력해주시요.",
 		};
 		
 		for (key in required){
@@ -44,6 +46,14 @@ module.exports.joinValidator = async (req,res,next)=>{
 		
 		if(req.body.memPw != req.body.memPwRe){
 			throw new Error("비밀번호 확인이 일치하지 않습니다.");
+		}
+		
+		if(req.body.memFNum.length != 6){
+			throw new Error("주민번호 앞자리 양식이 틀렸습니다!");
+		}
+		
+		if(req.body.memBNum.length != 7){
+			throw new Error("주민번호 뒷자리 양식이 틀렸습니다.");
 		}
 		
 		/** 회원 중복 확인 **/
