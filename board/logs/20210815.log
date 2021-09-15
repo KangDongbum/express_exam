@@ -1,0 +1,77 @@
+{"level":"info","message":"[18:47:51]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:20:49]데이터 베이스 연결 성공","service":"general"}
+{"level":"error","message":"[19:20:56][404]/favicon.ico은 없는 페이지 입니다.","service":"general"}
+{"level":"error","message":"[19:20:56]Error: /favicon.ico은 없는 페이지 입니다.\n    at C:\\dongbum\\express\\express_exam\\board\\app.js:63:16\n    at Layer.handle [as handle_request] (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:284:7\n    at Function.process_params (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:635:15\n    at next (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:260:14)\n    at Function.handle (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:47:12)","service":"general"}
+{"level":"info","message":"[19:38:53]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:39:12]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:40:21]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:41:23]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:41:32]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:41:45]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:41:58]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:42:31]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:44:22]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:44:28]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:44:33]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:45:31]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:49:10]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:49:51]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:49:58]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:49:59]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:50:51]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:51:02]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:51:23]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:51:39]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:51:55]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:52:00]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:58:33]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:59:00]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:59:31]데이터 베이스 연결 성공","service":"general"}
+{"level":"error","message":"[19:59:45]replacement is not defined","service":"general"}
+{"level":"error","message":"[19:59:45]ReferenceError: replacement is not defined\n    at Object.join (C:\\dongbum\\express\\express_exam\\board\\models\\member.js:22:5)\n    at C:\\dongbum\\express\\express_exam\\board\\routes\\member\\index.js:16:10\n    at Layer.handle [as handle_request] (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at next (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\route.js:131:14)\n    at Route.dispatch (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at Layer.handle [as handle_request] (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:281:22\n    at Function.process_params (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:275:10)","service":"general"}
+{"level":"info","message":"[20:00:11]데이터 베이스 연결 성공","service":"general"}
+{"level":"error","message":"[20:00:15]replacement is not defined","service":"general"}
+{"level":"error","message":"[20:00:15]ReferenceError: replacement is not defined\n    at Object.join (C:\\dongbum\\express\\express_exam\\board\\models\\member.js:22:5)\n    at C:\\dongbum\\express\\express_exam\\board\\routes\\member\\index.js:16:10\n    at Layer.handle [as handle_request] (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at next (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\route.js:131:14)\n    at Route.dispatch (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at Layer.handle [as handle_request] (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:281:22\n    at Function.process_params (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:275:10)","service":"general"}
+{"level":"error","message":"[20:00:33]ReferenceError: replacement is not defined\n    at Object.join (C:\\dongbum\\express\\express_exam\\board\\models\\member.js:22:5)\n    at C:\\dongbum\\express\\express_exam\\board\\routes\\member\\index.js:16:10\n    at Layer.handle [as handle_request] (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at next (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\route.js:131:14)\n    at Route.dispatch (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at Layer.handle [as handle_request] (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:281:22\n    at Function.process_params (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:275:10)","service":"general"}
+{"level":"error","message":"[20:00:33]replacement is not defined","service":"general"}
+{"level":"info","message":"[20:01:00]데이터 베이스 연결 성공","service":"general"}
+{"level":"error","message":"[20:01:13]QyeryTypes is not defined","service":"general"}
+{"level":"error","message":"[20:01:13]ReferenceError: QyeryTypes is not defined\n    at Object.join (C:\\dongbum\\express\\express_exam\\board\\models\\member.js:23:12)\n    at C:\\dongbum\\express\\express_exam\\board\\routes\\member\\index.js:16:10\n    at Layer.handle [as handle_request] (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at next (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\route.js:131:14)\n    at Route.dispatch (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at Layer.handle [as handle_request] (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:281:22\n    at Function.process_params (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:275:10)","service":"general"}
+{"level":"info","message":"[20:01:50]데이터 베이스 연결 성공","service":"general"}
+{"level":"error","message":"[20:02:01]QyeryTypes is not defined","service":"general"}
+{"level":"error","message":"[20:02:01]ReferenceError: QyeryTypes is not defined\n    at Object.join (C:\\dongbum\\express\\express_exam\\board\\models\\member.js:23:12)\n    at C:\\dongbum\\express\\express_exam\\board\\routes\\member\\index.js:16:10\n    at Layer.handle [as handle_request] (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at next (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\route.js:131:14)\n    at Route.dispatch (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at Layer.handle [as handle_request] (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:281:22\n    at Function.process_params (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:275:10)","service":"general"}
+{"level":"info","message":"[20:02:17]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[20:02:18]데이터 베이스 연결 성공","service":"general"}
+{"level":"error","message":"[20:02:28]Named parameter \":memPw\" has no value in the given object.","service":"general"}
+{"level":"error","message":"[20:02:28]Error: Named parameter \":memPw\" has no value in the given object.\n    at C:\\dongbum\\express\\express_exam\\board\\node_modules\\sequelize\\lib\\sql-string.js:121:11\n    at String.replace (<anonymous>)\n    at Object.formatNamedParameters (C:\\dongbum\\express\\express_exam\\board\\node_modules\\sequelize\\lib\\sql-string.js:113:14)\n    at Object.formatNamedParameters (C:\\dongbum\\express\\express_exam\\board\\node_modules\\sequelize\\lib\\utils.js:126:20)\n    at Sequelize.query (C:\\dongbum\\express\\express_exam\\board\\node_modules\\sequelize\\lib\\sequelize.js:586:21)\n    at Object.join (C:\\dongbum\\express\\express_exam\\board\\models\\member.js:21:35)\n    at C:\\dongbum\\express\\express_exam\\board\\routes\\member\\index.js:16:10\n    at Layer.handle [as handle_request] (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at next (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\route.js:131:14)","service":"general"}
+{"level":"info","message":"[20:03:31]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[20:08:43]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[20:09:45]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[20:12:39]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[20:12:52]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[20:13:58]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[20:14:25]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[20:14:34]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[20:19:00]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[20:21:29]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[20:23:43]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[20:23:57]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[20:24:01]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[20:24:11]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[20:24:43]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[20:25:41]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[20:25:44]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[20:26:53]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[20:27:21]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[20:27:29]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[20:28:17]데이터 베이스 연결 성공","service":"general"}
+{"level":"error","message":"[20:28:21]Validation error","service":"general"}
+{"level":"error","message":"[20:28:21]SequelizeUniqueConstraintError: Validation error\n    at Query.formatError (C:\\dongbum\\express\\express_exam\\board\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:242:16)\n    at Query.run (C:\\dongbum\\express\\express_exam\\board\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:77:18)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at async C:\\dongbum\\express\\express_exam\\board\\node_modules\\sequelize\\lib\\sequelize.js:619:16\n    at async Object.join (C:\\dongbum\\express\\express_exam\\board\\models\\member.js:24:19)\n    at async C:\\dongbum\\express\\express_exam\\board\\routes\\member\\index.js:17:17","service":"general"}
+{"level":"info","message":"[20:29:58]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[20:30:01]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[20:30:16]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[20:30:29]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[20:31:10]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[20:32:12]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[20:32:23]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[20:32:52]데이터 베이스 연결 성공","service":"general"}
