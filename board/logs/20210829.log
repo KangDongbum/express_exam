@@ -1,0 +1,161 @@
+{"level":"info","message":"[18:42:21]데이터 베이스 연결 성공","service":"general"}
+{"level":"error","message":"[18:42:44][404]/favicon.ico은 없는 페이지 입니다.","service":"general"}
+{"level":"error","message":"[18:42:44]Error: /favicon.ico은 없는 페이지 입니다.\n    at C:\\dongbum\\express\\express_exam\\board\\app.js:63:16\n    at Layer.handle [as handle_request] (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:284:7\n    at Function.process_params (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:635:15\n    at next (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:260:14)\n    at Function.handle (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:47:12)","service":"general"}
+{"level":"info","message":"[18:44:36]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[18:44:40]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[18:45:46]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[18:46:41]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[18:47:16]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[18:47:25]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[18:47:58]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[18:48:00]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[18:48:05]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[18:48:06]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[18:48:10]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[18:48:57]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[18:49:40]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[18:49:57]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[18:50:06]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[18:50:12]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[18:50:21]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[18:51:37]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[18:51:43]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[18:52:09]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[18:52:28]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[18:52:32]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[18:52:43]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[18:52:49]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[18:52:56]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[18:54:19]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[18:56:17]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[18:56:45]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[18:56:54]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[18:57:12]데이터 베이스 연결 성공","service":"general"}
+{"level":"error","message":"[18:57:15][500]Cannot read property 'send' of undefined","service":"general"}
+{"level":"error","message":"[18:57:15]TypeError: Cannot read property 'send' of undefined\n    at alert (C:\\dongbum\\express\\express_exam\\board\\lib\\common.js:14:7)\n    at joinValidator (C:\\dongbum\\express\\express_exam\\board\\middlewares\\member.js:27:11)\n    at Layer.handle [as handle_request] (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at next (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\route.js:131:14)\n    at Route.dispatch (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at Layer.handle [as handle_request] (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:281:22\n    at Function.process_params (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:275:10)","service":"general"}
+{"level":"info","message":"[18:57:44]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[18:59:18]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:00:14]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:00:16]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:02:05]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:03:30]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:03:31]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:03:56]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:04:22]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:04:25]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:05:03]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:05:13]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:05:28]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:05:30]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:05:44]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:06:21]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:09:07]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:09:09]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:10:40]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:10:52]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:11:16]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:11:46]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:11:58]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:13:05]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:13:08]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:13:22]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:13:37]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:13:38]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:13:43]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:13:53]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:14:01]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:14:41]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:14:51]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:14:55]데이터 베이스 연결 성공","service":"general"}
+{"level":"error","message":"[19:15:14]Data too long for column 'cellPhone' at row 1","service":"general"}
+{"level":"error","message":"[19:15:14]SequelizeDatabaseError: Data too long for column 'cellPhone' at row 1\n    at Query.formatError (C:\\dongbum\\express\\express_exam\\board\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:265:16)\n    at Query.run (C:\\dongbum\\express\\express_exam\\board\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:77:18)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at async C:\\dongbum\\express\\express_exam\\board\\node_modules\\sequelize\\lib\\sequelize.js:619:16\n    at async Object.join (C:\\dongbum\\express\\express_exam\\board\\models\\member.js:24:19)\n    at async C:\\dongbum\\express\\express_exam\\board\\routes\\member\\index.js:17:17","service":"general"}
+{"level":"info","message":"[19:18:30]데이터 베이스 연결 성공","service":"general"}
+{"level":"error","message":"[19:19:03]Data too long for column 'cellPhone' at row 1","service":"general"}
+{"level":"error","message":"[19:19:03]SequelizeDatabaseError: Data too long for column 'cellPhone' at row 1\n    at Query.formatError (C:\\dongbum\\express\\express_exam\\board\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:265:16)\n    at Query.run (C:\\dongbum\\express\\express_exam\\board\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:77:18)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at async C:\\dongbum\\express\\express_exam\\board\\node_modules\\sequelize\\lib\\sequelize.js:619:16\n    at async Object.join (C:\\dongbum\\express\\express_exam\\board\\models\\member.js:24:19)\n    at async C:\\dongbum\\express\\express_exam\\board\\routes\\member\\index.js:17:17","service":"general"}
+{"level":"info","message":"[19:26:47]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:26:54]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:27:02]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:27:47]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:27:56]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:27:59]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:28:07]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:28:49]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:28:52]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:29:12]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:29:16]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:29:42]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:30:03]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:30:10]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:30:13]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:32:52]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:33:23]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:33:29]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:35:05]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:35:32]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:35:34]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:36:00]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:36:24]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:36:26]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:36:32]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:36:39]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:37:16]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:37:26]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:37:42]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:38:16]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:38:19]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:38:36]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:38:56]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:39:54]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:39:59]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:40:05]데이터 베이스 연결 성공","service":"general"}
+{"level":"error","message":"[19:41:43]Data too long for column 'cellPhone' at row 1","service":"general"}
+{"level":"error","message":"[19:41:43]SequelizeDatabaseError: Data too long for column 'cellPhone' at row 1\n    at Query.formatError (C:\\dongbum\\express\\express_exam\\board\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:265:16)\n    at Query.run (C:\\dongbum\\express\\express_exam\\board\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:77:18)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at async C:\\dongbum\\express\\express_exam\\board\\node_modules\\sequelize\\lib\\sequelize.js:619:16\n    at async Object.join (C:\\dongbum\\express\\express_exam\\board\\models\\member.js:24:19)\n    at async C:\\dongbum\\express\\express_exam\\board\\routes\\member\\index.js:18:17","service":"general"}
+{"level":"error","message":"[19:41:55]Data too long for column 'cellPhone' at row 1","service":"general"}
+{"level":"error","message":"[19:41:55]SequelizeDatabaseError: Data too long for column 'cellPhone' at row 1\n    at Query.formatError (C:\\dongbum\\express\\express_exam\\board\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:265:16)\n    at Query.run (C:\\dongbum\\express\\express_exam\\board\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:77:18)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at async C:\\dongbum\\express\\express_exam\\board\\node_modules\\sequelize\\lib\\sequelize.js:619:16\n    at async Object.join (C:\\dongbum\\express\\express_exam\\board\\models\\member.js:24:19)\n    at async C:\\dongbum\\express\\express_exam\\board\\routes\\member\\index.js:18:17","service":"general"}
+{"level":"error","message":"[19:42:28]SequelizeDatabaseError: Data too long for column 'cellPhone' at row 1\n    at Query.formatError (C:\\dongbum\\express\\express_exam\\board\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:265:16)\n    at Query.run (C:\\dongbum\\express\\express_exam\\board\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:77:18)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at async C:\\dongbum\\express\\express_exam\\board\\node_modules\\sequelize\\lib\\sequelize.js:619:16\n    at async Object.join (C:\\dongbum\\express\\express_exam\\board\\models\\member.js:24:19)\n    at async C:\\dongbum\\express\\express_exam\\board\\routes\\member\\index.js:18:17","service":"general"}
+{"level":"error","message":"[19:42:28]Data too long for column 'cellPhone' at row 1","service":"general"}
+{"level":"info","message":"[19:42:51]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:43:34]데이터 베이스 연결 성공","service":"general"}
+{"level":"error","message":"[19:44:45]Data too long for column 'cellPhone' at row 1","service":"general"}
+{"level":"error","message":"[19:44:45]SequelizeDatabaseError: Data too long for column 'cellPhone' at row 1\n    at Query.formatError (C:\\dongbum\\express\\express_exam\\board\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:265:16)\n    at Query.run (C:\\dongbum\\express\\express_exam\\board\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:77:18)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at async C:\\dongbum\\express\\express_exam\\board\\node_modules\\sequelize\\lib\\sequelize.js:619:16\n    at async Object.join (C:\\dongbum\\express\\express_exam\\board\\models\\member.js:24:19)\n    at async C:\\dongbum\\express\\express_exam\\board\\routes\\member\\index.js:18:17","service":"general"}
+{"level":"info","message":"[19:51:51]데이터 베이스 연결 성공","service":"general"}
+{"level":"error","message":"[19:51:59][404]/member은 없는 페이지 입니다.","service":"general"}
+{"level":"error","message":"[19:51:59]Error: /member은 없는 페이지 입니다.\n    at C:\\dongbum\\express\\express_exam\\board\\app.js:63:16\n    at Layer.handle [as handle_request] (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:284:7\n    at Function.process_params (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:635:15\n    at next (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:260:14)\n    at Function.handle (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:47:12)","service":"general"}
+{"level":"error","message":"[19:52:04][500]The \"path\" argument must be of type string. Received undefined","service":"general"}
+{"level":"error","message":"[19:52:04]TypeError [ERR_INVALID_ARG_TYPE]: The \"path\" argument must be of type string. Received undefined\n    at validateString (internal/validators.js:124:11)\n    at Object.extname (path.js:828:5)\n    at new NunjucksView (C:\\dongbum\\express\\express_exam\\board\\node_modules\\nunjucks\\src\\express-app.js:10:21)\n    at Function.render (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\application.js:570:12)\n    at ServerResponse.render (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\response.js:1012:7)\n    at C:\\dongbum\\express\\express_exam\\board\\routes\\member\\index.js:35:14\n    at Layer.handle [as handle_request] (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at Layer.handle [as handle_request] (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\layer.js:95:5)","service":"general"}
+{"level":"info","message":"[19:52:37]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:52:45]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:53:00]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:53:02]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:53:12]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:53:25]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:54:07]데이터 베이스 연결 성공","service":"general"}
+{"level":"error","message":"[19:54:11][500]The \"path\" argument must be of type string. Received undefined","service":"general"}
+{"level":"error","message":"[19:54:11]TypeError [ERR_INVALID_ARG_TYPE]: The \"path\" argument must be of type string. Received undefined\n    at validateString (internal/validators.js:124:11)\n    at Object.extname (path.js:828:5)\n    at new NunjucksView (C:\\dongbum\\express\\express_exam\\board\\node_modules\\nunjucks\\src\\express-app.js:10:21)\n    at Function.render (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\application.js:570:12)\n    at ServerResponse.render (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\response.js:1012:7)\n    at C:\\dongbum\\express\\express_exam\\board\\routes\\member\\index.js:35:14\n    at Layer.handle [as handle_request] (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at Layer.handle [as handle_request] (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\layer.js:95:5)","service":"general"}
+{"level":"info","message":"[19:54:16]데이터 베이스 연결 성공","service":"general"}
+{"level":"error","message":"[19:54:17][500]The \"path\" argument must be of type string. Received undefined","service":"general"}
+{"level":"error","message":"[19:54:17]TypeError [ERR_INVALID_ARG_TYPE]: The \"path\" argument must be of type string. Received undefined\n    at validateString (internal/validators.js:124:11)\n    at Object.extname (path.js:828:5)\n    at new NunjucksView (C:\\dongbum\\express\\express_exam\\board\\node_modules\\nunjucks\\src\\express-app.js:10:21)\n    at Function.render (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\application.js:570:12)\n    at ServerResponse.render (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\response.js:1012:7)\n    at C:\\dongbum\\express\\express_exam\\board\\routes\\member\\index.js:35:14\n    at Layer.handle [as handle_request] (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at Layer.handle [as handle_request] (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\layer.js:95:5)","service":"general"}
+{"level":"info","message":"[19:55:28]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:55:30]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:55:44]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:56:19]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:56:28]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:56:37]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:56:39]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:56:40]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:57:39]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:57:58]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:58:14]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:58:58]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:59:19]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:59:34]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:59:59]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[22:30:59]데이터 베이스 연결 성공","service":"general"}
+{"level":"error","message":"[22:31:29]Data too long for column 'cellPhone' at row 1","service":"general"}
+{"level":"error","message":"[22:31:29]SequelizeDatabaseError: Data too long for column 'cellPhone' at row 1\n    at Query.formatError (C:\\dongbum\\express\\express_exam\\board\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:265:16)\n    at Query.run (C:\\dongbum\\express\\express_exam\\board\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:77:18)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at async C:\\dongbum\\express\\express_exam\\board\\node_modules\\sequelize\\lib\\sequelize.js:619:16\n    at async Object.join (C:\\dongbum\\express\\express_exam\\board\\models\\member.js:24:19)\n    at async C:\\dongbum\\express\\express_exam\\board\\routes\\member\\index.js:18:17","service":"general"}
+{"level":"error","message":"[22:31:48][500]The \"path\" argument must be of type string. Received undefined","service":"general"}
+{"level":"error","message":"[22:31:48]TypeError [ERR_INVALID_ARG_TYPE]: The \"path\" argument must be of type string. Received undefined\n    at validateString (internal/validators.js:124:11)\n    at Object.extname (path.js:828:5)\n    at new NunjucksView (C:\\dongbum\\express\\express_exam\\board\\node_modules\\nunjucks\\src\\express-app.js:10:21)\n    at Function.render (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\application.js:570:12)\n    at ServerResponse.render (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\response.js:1012:7)\n    at C:\\dongbum\\express\\express_exam\\board\\routes\\member\\index.js:35:14\n    at Layer.handle [as handle_request] (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at Layer.handle [as handle_request] (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\layer.js:95:5)","service":"general"}
+{"level":"info","message":"[22:35:41]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[22:35:45]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[22:36:56]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[22:36:58]데이터 베이스 연결 성공","service":"general"}
