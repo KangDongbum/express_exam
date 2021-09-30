@@ -25,6 +25,7 @@ sequelize.sync({ force : false })
 app.set('PORT', process.env.PORT || 3000);
 
 /** 라우터 **/
+const adminRouter = require("./routes/admin"); // 관리자 페이지
 const mainRouter = require('./routes/main');
 const memberRouter = require('./routes/member'); // 회원 관련
 
@@ -55,6 +56,7 @@ app.use(session({
 app.use(bootStrap);
 
 /** 라우터 등록 **/
+app.use("/admin", adminRouter); // 관리자 페이지
 app.use(mainRouter);
 app.use("/member", memberRouter); // 회원 관련
 
