@@ -1,0 +1,64 @@
+{"level":"info","message":"[18:45:33]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[18:47:21]데이터 베이스 연결 성공","service":"general"}
+{"level":"error","message":"[18:47:30][404]/favicon.ico은 없는 페이지 입니다.","service":"general"}
+{"level":"error","message":"[18:47:30]Error: /favicon.ico은 없는 페이지 입니다.\n    at C:\\dongbum\\express\\express_exam\\board\\app.js:65:16\n    at Layer.handle [as handle_request] (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:284:7\n    at Function.process_params (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:635:15\n    at next (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:260:14)\n    at Function.handle (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:47:12)","service":"general"}
+{"level":"error","message":"[18:50:38][404]/favicon.ico은 없는 페이지 입니다.","service":"general"}
+{"level":"error","message":"[18:50:38]Error: /favicon.ico은 없는 페이지 입니다.\n    at C:\\dongbum\\express\\express_exam\\board\\app.js:65:16\n    at Layer.handle [as handle_request] (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:284:7\n    at Function.process_params (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:635:15\n    at next (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:260:14)\n    at Function.handle (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:47:12)","service":"general"}
+{"level":"error","message":"[18:50:51][404]/favicon.ico은 없는 페이지 입니다.","service":"general"}
+{"level":"error","message":"[18:50:51]Error: /favicon.ico은 없는 페이지 입니다.\n    at C:\\dongbum\\express\\express_exam\\board\\app.js:65:16\n    at Layer.handle [as handle_request] (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:284:7\n    at Function.process_params (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:635:15\n    at next (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:260:14)\n    at Function.handle (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:47:12)","service":"general"}
+{"level":"info","message":"[18:51:32]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[18:58:02]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:00:09]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:02:17]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:04:17]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:11:42]데이터 베이스 연결 성공","service":"general"}
+{"level":"error","message":"[19:16:49][404]/admin/member은 없는 페이지 입니다.","service":"general"}
+{"level":"error","message":"[19:16:49]Error: /admin/member은 없는 페이지 입니다.\n    at C:\\dongbum\\express\\express_exam\\board\\app.js:65:16\n    at Layer.handle [as handle_request] (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:284:7\n    at Function.process_params (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:635:15\n    at next (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:260:14)\n    at Function.handle (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:47:12)","service":"general"}
+{"level":"error","message":"[19:21:29][404]/admin/member은 없는 페이지 입니다.","service":"general"}
+{"level":"error","message":"[19:21:29]Error: /admin/member은 없는 페이지 입니다.\n    at C:\\dongbum\\express\\express_exam\\board\\app.js:65:16\n    at Layer.handle [as handle_request] (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:284:7\n    at Function.process_params (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:635:15\n    at next (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:260:14)\n    at Function.handle (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:47:12)","service":"general"}
+{"level":"error","message":"[19:21:30][404]/admin/board은 없는 페이지 입니다.","service":"general"}
+{"level":"error","message":"[19:21:30]Error: /admin/board은 없는 페이지 입니다.\n    at C:\\dongbum\\express\\express_exam\\board\\app.js:65:16\n    at Layer.handle [as handle_request] (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:284:7\n    at Function.process_params (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:635:15\n    at next (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:260:14)\n    at Function.handle (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (C:\\dongbum\\express\\express_exam\\board\\node_modules\\express\\lib\\router\\index.js:47:12)","service":"general"}
+{"level":"info","message":"[19:23:59]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:24:08]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:24:25]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:25:14]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:25:21]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:25:31]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:25:43]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:26:15]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:26:31]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:36:53]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:39:02]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:39:14]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:40:19]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:51:42]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:51:46]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:51:54]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:53:19]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:53:44]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:53:45]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:53:53]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:53:58]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:54:27]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:55:17]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:55:22]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:58:35]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:58:47]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[19:59:05]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[20:01:07]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[20:01:41]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[20:02:35]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[20:03:28]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[20:03:34]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[20:03:35]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[20:04:06]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[20:04:23]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[20:04:35]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[20:04:36]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[20:04:58]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[20:05:14]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[20:05:17]데이터 베이스 연결 성공","service":"general"}
+{"level":"info","message":"[20:05:19]데이터 베이스 연결 성공","service":"general"}
+{"level":"error","message":"[20:05:37]Table 'board.board' doesn't exist","service":"general"}
+{"level":"error","message":"[20:05:37]SequelizeDatabaseError: Table 'board.board' doesn't exist\n    at Query.formatError (C:\\dongbum\\express\\express_exam\\board\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:265:16)\n    at Query.run (C:\\dongbum\\express\\express_exam\\board\\node_modules\\sequelize\\lib\\dialects\\mysql\\query.js:77:18)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at async C:\\dongbum\\express\\express_exam\\board\\node_modules\\sequelize\\lib\\sequelize.js:619:16\n    at async Object.create (C:\\dongbum\\express\\express_exam\\board\\models\\board.js:23:4)","service":"general"}
+{"level":"info","message":"[20:06:02]데이터 베이스 연결 성공","service":"general"}
