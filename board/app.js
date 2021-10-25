@@ -28,6 +28,8 @@ app.set('PORT', process.env.PORT || 3000);
 const adminRouter = require("./routes/admin"); // 관리자 페이지
 const mainRouter = require('./routes/main');
 const memberRouter = require('./routes/member'); // 회원 관련
+const boardRouter = require("./routes/board"); // 게시판
+const fileRouter = require('./routes/file'); // 파일 업로드
 
 /** 템플릿 설정 **/
 app.set("view engine", "html");
@@ -59,6 +61,8 @@ app.use(bootStrap);
 app.use("/admin", adminRouter); // 관리자 페이지
 app.use(mainRouter);
 app.use("/member", memberRouter); // 회원 관련
+app.use("/board", boardRouter); // 게시판 관련
+app.use("/file", fileRouter); // 파일 업로드 관련
 
 /** 없는 페이지 처리 **/
 app.use((req, res,next) =>{
