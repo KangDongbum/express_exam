@@ -1,20 +1,19 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 	<head>
-		<meta charset = 'utf-8'>
+		<meta charset='utf-8'>
 		<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
-		<link rel='stylesheet' type='text/css' href='/css/style.css'>
+		<link rel="stylesheet" type="text/css" href="/css/style.css">
 		{% if addCss.length > 0 %}
 		{% for css in addCss %}
-		<link rel='stylesheet' type='text/css' href="/css/{{ css }}.css">
+		<link rel="stylesheet" type="text/css" href="/css/{{ css }}.css">
 		{% endfor %}
 		{% endif %}
 		{% block style %}
 		{% endblock %}
-		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 		<script src="/js/layer.js"></script>
-		<script src='/js/common.js'></script>
+		<script src="/js/common.js"></script>
 		{% if addScript.length > 0 %}
 		{% for script in addScript %}
 		<script src='/js/{{ script }}.js'></script>
@@ -22,16 +21,15 @@
 		{% endif %}
 		{% block script %}
 		{% endblock %}
-		
 		<title>{{ pageTitle }}</title>
 	</head>
 	<body>
 		{% block header %}
 		<header>
-		{% include '../header/main.html' %}
+			{% include '../header/main.html' %}
 		</header>
 		{% endblock %}
-	
+		
 		{% block mainMenu %}
 		{% include '../menus/main.html' %}
 		{% endblock %}
@@ -43,10 +41,10 @@
 		
 		{% block footer %}
 		<footer>
-		{% include '../footer/main.html' %}
+			{% include '../footer/main.html' %}
 		</footer>
 		{% endblock %}
 		
-		<iframe name = 'ifrmHidden' width='100%' height = '500' frameborder='0'></iframe>
+		<iframe name='ifrmHidden' width='100%' height='500' frameborder='0'></iframe>
 	</body>
 </html>

@@ -1,0 +1,200 @@
+﻿2021-02-03 21:34:54> Program: Starting Squirrel Updater: --createShortcut=MongoDBCompass.exe
+2021-02-03 21:34:54> ApplyReleasesImpl: About to create shortcuts for MongoDBCompass.exe, rootAppDir C:\Users\YONGGYO\AppData\Local\MongoDBCompass
+2021-02-03 21:34:54> ApplyReleasesImpl: Creating shortcut for MongoDBCompass.exe => C:\Users\YONGGYO\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\MongoDB Inc\MongoDBCompass.lnk
+2021-02-03 21:34:54> ApplyReleasesImpl: About to save shortcut: C:\Users\YONGGYO\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\MongoDB Inc\MongoDBCompass.lnk (target C:\Users\YONGGYO\AppData\Local\MongoDBCompass\MongoDBCompass.exe, workingDir C:\Users\YONGGYO\AppData\Local\MongoDBCompass\app-1.25.0, args , toastActivatorCSLID ad99d1f2-2b3e-5e06-a073-40f92f9ed026)
+2021-02-03 21:34:54> ApplyReleasesImpl: Creating shortcut for MongoDBCompass.exe => C:\Users\YONGGYO\Desktop\MongoDBCompass.lnk
+2021-02-03 21:34:54> ApplyReleasesImpl: About to save shortcut: C:\Users\YONGGYO\Desktop\MongoDBCompass.lnk (target C:\Users\YONGGYO\AppData\Local\MongoDBCompass\MongoDBCompass.exe, workingDir C:\Users\YONGGYO\AppData\Local\MongoDBCompass\app-1.25.0, args , toastActivatorCSLID ad99d1f2-2b3e-5e06-a073-40f92f9ed026)
+2021-02-03 21:34:54> ApplyReleasesImpl: Examining Pin: File Explorer.lnk
+2021-02-03 21:34:54> ApplyReleasesImpl: Examining Pin: Microsoft Edge.lnk
+2021-02-03 21:35:41> Program: Starting Squirrel Updater: --checkForUpdate https://compass.mongodb.com/api/v2/update/compass/stable/windows/1.25.0
+2021-02-03 21:35:41> Program: Fetching update information, downloading from https://compass.mongodb.com/api/v2/update/compass/stable/windows/1.25.0
+2021-02-03 21:35:41> CheckForUpdateImpl: Generated new staging user ID: e4cb64fc-816f-565a-8b07-f8375872b940
+2021-02-03 21:35:41> CheckForUpdateImpl: Downloading RELEASES file from https://compass.mongodb.com/api/v2/update/compass/stable/windows/1.25.0
+2021-02-03 21:35:41> FileDownloader: Downloading url: https://compass.mongodb.com/api/v2/update/compass/stable/windows/1.25.0/RELEASES?id=MongoDBCompass&localVersion=1.25.0&arch=amd64
+2021-02-03 21:35:42> Unhandled exception: System.AggregateException: 하나 이상의 오류가 발생했습니다. ---> System.Exception: Remote release File is empty or corrupted
+   위치: Squirrel.UpdateManager.CheckForUpdateImpl.<CheckForUpdate>d__2.MoveNext()
+--- 예외가 throw된 이전 위치의 스택 추적 끝 ---
+   위치: System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   위치: System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   위치: Squirrel.UpdateManager.<CheckForUpdate>d__7.MoveNext()
+--- 예외가 throw된 이전 위치의 스택 추적 끝 ---
+   위치: System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   위치: System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   위치: Squirrel.Update.Program.<CheckForUpdate>d__8.MoveNext()
+   --- 내부 예외 스택 추적의 끝 ---
+   위치: System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   위치: System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   위치: System.Threading.Tasks.Task`1.get_Result()
+   위치: Squirrel.Update.Program.executeCommandLine(String[] args)
+   위치: Squirrel.Update.Program.main(String[] args)
+---> (내부 예외 #0) System.Exception: Remote release File is empty or corrupted
+   위치: Squirrel.UpdateManager.CheckForUpdateImpl.<CheckForUpdate>d__2.MoveNext()
+--- 예외가 throw된 이전 위치의 스택 추적 끝 ---
+   위치: System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   위치: System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   위치: Squirrel.UpdateManager.<CheckForUpdate>d__7.MoveNext()
+--- 예외가 throw된 이전 위치의 스택 추적 끝 ---
+   위치: System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   위치: System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   위치: Squirrel.Update.Program.<CheckForUpdate>d__8.MoveNext()<---
+
+2021-02-03 21:47:43> Program: Starting Squirrel Updater: --checkForUpdate https://compass.mongodb.com/api/v2/update/compass/stable/windows/1.25.0
+2021-02-03 21:47:43> Program: Fetching update information, downloading from https://compass.mongodb.com/api/v2/update/compass/stable/windows/1.25.0
+2021-02-03 21:47:43> CheckForUpdateImpl: Using existing staging user ID: e4cb64fc-816f-565a-8b07-f8375872b940
+2021-02-03 21:47:43> CheckForUpdateImpl: Downloading RELEASES file from https://compass.mongodb.com/api/v2/update/compass/stable/windows/1.25.0
+2021-02-03 21:47:43> FileDownloader: Downloading url: https://compass.mongodb.com/api/v2/update/compass/stable/windows/1.25.0/RELEASES?id=MongoDBCompass&localVersion=1.25.0&arch=amd64
+2021-02-03 21:47:44> Unhandled exception: System.AggregateException: 하나 이상의 오류가 발생했습니다. ---> System.Exception: Remote release File is empty or corrupted
+   위치: Squirrel.UpdateManager.CheckForUpdateImpl.<CheckForUpdate>d__2.MoveNext()
+--- 예외가 throw된 이전 위치의 스택 추적 끝 ---
+   위치: System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   위치: System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   위치: Squirrel.UpdateManager.<CheckForUpdate>d__7.MoveNext()
+--- 예외가 throw된 이전 위치의 스택 추적 끝 ---
+   위치: System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   위치: System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   위치: Squirrel.Update.Program.<CheckForUpdate>d__8.MoveNext()
+   --- 내부 예외 스택 추적의 끝 ---
+   위치: System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   위치: System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   위치: System.Threading.Tasks.Task`1.get_Result()
+   위치: Squirrel.Update.Program.executeCommandLine(String[] args)
+   위치: Squirrel.Update.Program.main(String[] args)
+---> (내부 예외 #0) System.Exception: Remote release File is empty or corrupted
+   위치: Squirrel.UpdateManager.CheckForUpdateImpl.<CheckForUpdate>d__2.MoveNext()
+--- 예외가 throw된 이전 위치의 스택 추적 끝 ---
+   위치: System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   위치: System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   위치: Squirrel.UpdateManager.<CheckForUpdate>d__7.MoveNext()
+--- 예외가 throw된 이전 위치의 스택 추적 끝 ---
+   위치: System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   위치: System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   위치: Squirrel.Update.Program.<CheckForUpdate>d__8.MoveNext()<---
+
+2021-02-03 21:54:06> Program: Starting Squirrel Updater: --checkForUpdate https://compass.mongodb.com/api/v2/update/compass/stable/windows/1.25.0
+2021-02-03 21:54:06> Program: Fetching update information, downloading from https://compass.mongodb.com/api/v2/update/compass/stable/windows/1.25.0
+2021-02-03 21:54:06> CheckForUpdateImpl: Using existing staging user ID: e4cb64fc-816f-565a-8b07-f8375872b940
+2021-02-03 21:54:06> CheckForUpdateImpl: Downloading RELEASES file from https://compass.mongodb.com/api/v2/update/compass/stable/windows/1.25.0
+2021-02-03 21:54:06> FileDownloader: Downloading url: https://compass.mongodb.com/api/v2/update/compass/stable/windows/1.25.0/RELEASES?id=MongoDBCompass&localVersion=1.25.0&arch=amd64
+2021-02-03 21:54:07> Unhandled exception: System.AggregateException: 하나 이상의 오류가 발생했습니다. ---> System.Exception: Remote release File is empty or corrupted
+   위치: Squirrel.UpdateManager.CheckForUpdateImpl.<CheckForUpdate>d__2.MoveNext()
+--- 예외가 throw된 이전 위치의 스택 추적 끝 ---
+   위치: System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   위치: System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   위치: Squirrel.UpdateManager.<CheckForUpdate>d__7.MoveNext()
+--- 예외가 throw된 이전 위치의 스택 추적 끝 ---
+   위치: System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   위치: System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   위치: Squirrel.Update.Program.<CheckForUpdate>d__8.MoveNext()
+   --- 내부 예외 스택 추적의 끝 ---
+   위치: System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   위치: System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   위치: System.Threading.Tasks.Task`1.get_Result()
+   위치: Squirrel.Update.Program.executeCommandLine(String[] args)
+   위치: Squirrel.Update.Program.main(String[] args)
+---> (내부 예외 #0) System.Exception: Remote release File is empty or corrupted
+   위치: Squirrel.UpdateManager.CheckForUpdateImpl.<CheckForUpdate>d__2.MoveNext()
+--- 예외가 throw된 이전 위치의 스택 추적 끝 ---
+   위치: System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   위치: System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   위치: Squirrel.UpdateManager.<CheckForUpdate>d__7.MoveNext()
+--- 예외가 throw된 이전 위치의 스택 추적 끝 ---
+   위치: System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   위치: System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   위치: Squirrel.Update.Program.<CheckForUpdate>d__8.MoveNext()<---
+
+2021-02-03 22:09:07> Program: Starting Squirrel Updater: --checkForUpdate https://compass.mongodb.com/api/v2/update/compass/stable/windows/1.25.0
+2021-02-03 22:09:07> Program: Fetching update information, downloading from https://compass.mongodb.com/api/v2/update/compass/stable/windows/1.25.0
+2021-02-03 22:09:07> CheckForUpdateImpl: Using existing staging user ID: e4cb64fc-816f-565a-8b07-f8375872b940
+2021-02-03 22:09:07> CheckForUpdateImpl: Downloading RELEASES file from https://compass.mongodb.com/api/v2/update/compass/stable/windows/1.25.0
+2021-02-03 22:09:07> FileDownloader: Downloading url: https://compass.mongodb.com/api/v2/update/compass/stable/windows/1.25.0/RELEASES?id=MongoDBCompass&localVersion=1.25.0&arch=amd64
+2021-02-03 22:09:08> Unhandled exception: System.AggregateException: 하나 이상의 오류가 발생했습니다. ---> System.Exception: Remote release File is empty or corrupted
+   위치: Squirrel.UpdateManager.CheckForUpdateImpl.<CheckForUpdate>d__2.MoveNext()
+--- 예외가 throw된 이전 위치의 스택 추적 끝 ---
+   위치: System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   위치: System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   위치: Squirrel.UpdateManager.<CheckForUpdate>d__7.MoveNext()
+--- 예외가 throw된 이전 위치의 스택 추적 끝 ---
+   위치: System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   위치: System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   위치: Squirrel.Update.Program.<CheckForUpdate>d__8.MoveNext()
+   --- 내부 예외 스택 추적의 끝 ---
+   위치: System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   위치: System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   위치: System.Threading.Tasks.Task`1.get_Result()
+   위치: Squirrel.Update.Program.executeCommandLine(String[] args)
+   위치: Squirrel.Update.Program.main(String[] args)
+---> (내부 예외 #0) System.Exception: Remote release File is empty or corrupted
+   위치: Squirrel.UpdateManager.CheckForUpdateImpl.<CheckForUpdate>d__2.MoveNext()
+--- 예외가 throw된 이전 위치의 스택 추적 끝 ---
+   위치: System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   위치: System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   위치: Squirrel.UpdateManager.<CheckForUpdate>d__7.MoveNext()
+--- 예외가 throw된 이전 위치의 스택 추적 끝 ---
+   위치: System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   위치: System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   위치: Squirrel.Update.Program.<CheckForUpdate>d__8.MoveNext()<---
+
+2021-02-03 22:11:33> Program: Starting Squirrel Updater: --checkForUpdate https://compass.mongodb.com/api/v2/update/compass/stable/windows/1.25.0
+2021-02-03 22:11:33> Program: Fetching update information, downloading from https://compass.mongodb.com/api/v2/update/compass/stable/windows/1.25.0
+2021-02-03 22:11:33> CheckForUpdateImpl: Using existing staging user ID: e4cb64fc-816f-565a-8b07-f8375872b940
+2021-02-03 22:11:33> CheckForUpdateImpl: Downloading RELEASES file from https://compass.mongodb.com/api/v2/update/compass/stable/windows/1.25.0
+2021-02-03 22:11:34> FileDownloader: Downloading url: https://compass.mongodb.com/api/v2/update/compass/stable/windows/1.25.0/RELEASES?id=MongoDBCompass&localVersion=1.25.0&arch=amd64
+2021-02-03 22:11:34> Unhandled exception: System.AggregateException: 하나 이상의 오류가 발생했습니다. ---> System.Exception: Remote release File is empty or corrupted
+   위치: Squirrel.UpdateManager.CheckForUpdateImpl.<CheckForUpdate>d__2.MoveNext()
+--- 예외가 throw된 이전 위치의 스택 추적 끝 ---
+   위치: System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   위치: System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   위치: Squirrel.UpdateManager.<CheckForUpdate>d__7.MoveNext()
+--- 예외가 throw된 이전 위치의 스택 추적 끝 ---
+   위치: System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   위치: System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   위치: Squirrel.Update.Program.<CheckForUpdate>d__8.MoveNext()
+   --- 내부 예외 스택 추적의 끝 ---
+   위치: System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   위치: System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   위치: System.Threading.Tasks.Task`1.get_Result()
+   위치: Squirrel.Update.Program.executeCommandLine(String[] args)
+   위치: Squirrel.Update.Program.main(String[] args)
+---> (내부 예외 #0) System.Exception: Remote release File is empty or corrupted
+   위치: Squirrel.UpdateManager.CheckForUpdateImpl.<CheckForUpdate>d__2.MoveNext()
+--- 예외가 throw된 이전 위치의 스택 추적 끝 ---
+   위치: System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   위치: System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   위치: Squirrel.UpdateManager.<CheckForUpdate>d__7.MoveNext()
+--- 예외가 throw된 이전 위치의 스택 추적 끝 ---
+   위치: System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   위치: System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   위치: Squirrel.Update.Program.<CheckForUpdate>d__8.MoveNext()<---
+
+2021-02-04 09:40:10> Program: Starting Squirrel Updater: --checkForUpdate https://compass.mongodb.com/api/v2/update/compass/stable/windows/1.25.0
+2021-02-04 09:40:10> Program: Fetching update information, downloading from https://compass.mongodb.com/api/v2/update/compass/stable/windows/1.25.0
+2021-02-04 09:40:10> CheckForUpdateImpl: Using existing staging user ID: e4cb64fc-816f-565a-8b07-f8375872b940
+2021-02-04 09:40:10> CheckForUpdateImpl: Downloading RELEASES file from https://compass.mongodb.com/api/v2/update/compass/stable/windows/1.25.0
+2021-02-04 09:40:11> FileDownloader: Downloading url: https://compass.mongodb.com/api/v2/update/compass/stable/windows/1.25.0/RELEASES?id=MongoDBCompass&localVersion=1.25.0&arch=amd64
+2021-02-04 09:40:12> Unhandled exception: System.AggregateException: 하나 이상의 오류가 발생했습니다. ---> System.Exception: Remote release File is empty or corrupted
+   위치: Squirrel.UpdateManager.CheckForUpdateImpl.<CheckForUpdate>d__2.MoveNext()
+--- 예외가 throw된 이전 위치의 스택 추적 끝 ---
+   위치: System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   위치: System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   위치: Squirrel.UpdateManager.<CheckForUpdate>d__7.MoveNext()
+--- 예외가 throw된 이전 위치의 스택 추적 끝 ---
+   위치: System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   위치: System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   위치: Squirrel.Update.Program.<CheckForUpdate>d__8.MoveNext()
+   --- 내부 예외 스택 추적의 끝 ---
+   위치: System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   위치: System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   위치: System.Threading.Tasks.Task`1.get_Result()
+   위치: Squirrel.Update.Program.executeCommandLine(String[] args)
+   위치: Squirrel.Update.Program.main(String[] args)
+---> (내부 예외 #0) System.Exception: Remote release File is empty or corrupted
+   위치: Squirrel.UpdateManager.CheckForUpdateImpl.<CheckForUpdate>d__2.MoveNext()
+--- 예외가 throw된 이전 위치의 스택 추적 끝 ---
+   위치: System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   위치: System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   위치: Squirrel.UpdateManager.<CheckForUpdate>d__7.MoveNext()
+--- 예외가 throw된 이전 위치의 스택 추적 끝 ---
+   위치: System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   위치: System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   위치: Squirrel.Update.Program.<CheckForUpdate>d__8.MoveNext()<---
+

@@ -2,6 +2,7 @@ const router = require('express').Router();
 const path = require('path');
 const multer = require('multer');
 const uploadFile = require("../../models/uploadFile");
+const { uid } = require("../../lib/common");
 
 const upload = multer({
 	storage : multer.diskStorage({
@@ -13,9 +14,14 @@ const upload = multer({
 			* 1. 파일 정보(file) -> DB 추가
 			* 2. DB 추가시 -> idx(추가된 증감번호)
 			* 3. idx -> 파일명
+			* 4. file 객체 -> req.body.gid, req.body.uploadType
 			*/
+			file.gid = req.body.gid;
+			file.uploadType = req.body.uploadType;
+			
 			const idx = await uploadFile.insertInfo(file);
 			const folder = idx % 10;
+			file.idx = idx;
 			
 			done(null, "" + folder + "/" + idx);
 		}
@@ -30,24 +36,36 @@ const upload = multer({
 */
 router.route("/upload")
 	.get((req, res) => {
-		return res.render("file/upload");
+		/**
+		* GET - req.query, req.params
+		* POST - req.body
+		*/
+		const uploadType = req.query.type || "";
+		const gid = req.query.gid;
+		const data = {
+			uploadType,
+			gid,
+		};
+		return res.render("file/upload", data);
 	})
-	.post(upload.single('file'), (req, res) => { // 이미지 업로드 처리 
-		
-		return res.send("submit!!");
+	.post(upload.single('file'), async (req, res) => { // 이미지 업로드 처리 
+		let fileInfo = await uploadFile.get(req.file.idx);
+		fileInfo = JSON.stringify(fileInfo);
+		return res.send(`<script>parent.callbackFileUpload(${fileInfo});</script>`);
 	});
 
 /** 파일 다운로드 */
-router.get("/download/:idx", (req, res) => {
-	/**
-	* 출력 헤더 
-			- Content-Type : application/octet-stream
-			- Content-Disposition: attachment; filename=다운로드될 파일명
-	*
-	*/
-	res.header("Content-Type", "application/octet-stream");
-	res.header("Content-Disposition", "attachment; filename=test.txt");
-	res.send("다운로드 테스트!");
+router.get("/download/:idx", async (req, res) => {
+	uploadFile.download(req.params.idx, res);
+});
+
+/** 파일 삭제 */
+router.get("/delete/:idx", async (req, res) => {
+	const result = await uploadFile.delete(req.params.idx);
+	if (result) {
+		return res.send("1");
+	}
+	return res.send("");
 });
 
 module.exports = router;
